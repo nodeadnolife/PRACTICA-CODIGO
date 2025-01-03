@@ -29,53 +29,60 @@ Si deseas añadir nuevos ejercicios, sigue estos pasos:
 
 2. **Crea un archivo `.md`:**
 
-   - El nombre del archivo debe describir brevemente el ejercicio (por ejemplo, `suma-pares.md`).
+   - El nombre del archivo debe describir brevemente el ejercicio (por ejemplo, `007-Suma-pares.md`).
    - Usa el formato estándar para ejercicios descrito abajo.
 
 3. **Formato del Ejercicio:**
 
 ```markdown
-# Nombre del Ejercicio
+# Número-Nombre
+**Dificultad:** [Fácil | Intermedio | Difícil]
+**Categoría:** [Manipulación de cadenas | 
+Algoritmos | Estructuras de datos | Otros]  
 
-## Descripción
+## Enunciado  
+[Describir claramente el objetivo del ejercicio y
+lo que se espera del usuario.]  
 
-- Descripción detallada del problema que se debe resolver.
+## Reglas  
+1. [Regla específica que debe cumplir la 
+solución.]  
+2. [Otra regla relevante, si aplica.]  
+3. [Pautas adicionales necesarias para resolver el
+ejercicio.]  
 
-## Entrada
-
-- Explicación clara de los datos que recibirá el programa.
-
-## Salida
-
-- Descripción de los datos esperados como resultado.
-
-## Ejemplo
-
-- Entrada:
-[1, 2, 3, 4]
-- Salida:
-10
-
-## Notas
-
-- Notas adicionales o restricciones, si aplica.
-```
-
-## Código Base (Opcional)
-
-Incluye una plantilla inicial en el lenguaje que prefieras, si el ejercicio lo requiere.
-
-```javascript
-function sumaPares(arr) {
-  // Tu código aquí
+## Código Base  
+/**
+ *Descripción de lo que hace la función
+ *@param {tipo} parametro - Descripción del 
+parámetro
+ *@returns {tipo} - Descripción del retorno
+ */
+function nombreFuncion(parametro) {
+  // Escribe tu solución aquí
+  return; // Cambia esto según corresponda
 }
-```
 
+// Ejemplo de uso
+const entrada = "Ejemplo de entrada";
+console.log(nombreFuncion(entrada)); // Salida
+esperada: Ejemplo de salida
+
+## Ejemplo de Uso
+
+// Entrada 1:
+const entrada1 = "Texto de ejemplo";
+console.log(nombreFuncion(entrada1)); 
+// Salida esperada: Salida esperada 1
+
+// Entrada 2:
+const entrada2 = "Otro ejemplo";
+console.log(nombreFuncion(entrada2)); 
+// Salida esperada: Salida esperada 2
+```
 
 4. **Haz un Pull Request:**
    - Envía el archivo a la carpeta correspondiente siguiendo las instrucciones de la sección "Envío de Cambios".
-
----
 
 ### 2. Subir Soluciones
 
@@ -87,16 +94,14 @@ Para subir una solución a un ejercicio existente, sigue estos pasos:
 2. **Guarda tu solución:**
    - Dirígete a la carpeta `/soluciones` correspondiente al nivel de dificultad.
    - Crea un archivo con el siguiente formato:
-     - `nombre-ejercicio-tu-nombre.js` (o el lenguaje que uses).
-   - Por ejemplo: `suma-pares-juanperez.js`.
+     - `Numero-NombreDeEjercicio-Tu-Nombre.js` (o el lenguaje que uses).
+   - Por ejemplo: `007-suma-pares-juanperez.js`.
 
 3. **Escribe un comentario inicial:**
    - Describe brevemente tu solución y las herramientas o algoritmos usados.
 
 4. **Haz un Pull Request:**
    - Envía el archivo a la carpeta correspondiente siguiendo las instrucciones de la sección "Envío de Cambios".
-
----
 
 ### 3. Proponer Mejoras
 
@@ -110,7 +115,7 @@ Si encuentras errores o tienes sugerencias para mejorar los ejercicios, document
 
 1. Haz un **fork** del repositorio.
 2. Crea una nueva rama con un nombre descriptivo.
-   - Ejemplo: `add-suma-pares` o `fix-documentacion`.
+   - Ejemplo: `add-solucion-suma-pares` o `fix-documentacion`.
 3. Realiza tus cambios en la nueva rama.
 4. Envía un **Pull Request** hacia la rama principal del repositorio.
 
