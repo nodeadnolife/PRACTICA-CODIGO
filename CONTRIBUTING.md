@@ -74,6 +74,10 @@ console.log(nombreFuncion(entrada1));
 const entrada2 = "Otro ejemplo";
 console.log(nombreFuncion(entrada2)); 
 // Salida esperada: Salida esperada 2
+
+## Contribuidor
+- Nombre del creador: [Tu Nombre o Alias]
+
 ```
 
 4. **Haz un Pull Request:**
