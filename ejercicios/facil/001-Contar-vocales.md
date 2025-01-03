@@ -35,7 +35,7 @@ console.log(contarVocales(texto1));
 // Salida esperada: 4
 
 // Entrada 2:
-const texto2 = "Programación";
+const texto2 = "Organización DevXP";
 console.log(contarVocales(texto2)); 
 // Salida esperada: 6
 
