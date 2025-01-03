@@ -63,11 +63,6 @@ function nombreFuncion(parametro) {
   return; // Cambia esto según corresponda
 }
 
-// Ejemplo de uso
-const entrada = "Ejemplo de entrada";
-console.log(nombreFuncion(entrada)); // Salida
-esperada: Ejemplo de salida
-
 ## Ejemplo de Uso
 
 // Entrada 1:
